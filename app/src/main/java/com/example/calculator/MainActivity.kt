@@ -7,6 +7,7 @@ import net.objecthunter.exp4j.ExpressionBuilder
 import kotlinx.android.synthetic.main.activity_main.*
 
 
+@Suppress("UNSAFE_CALL_ON_PARTIALLY_DEFINED_RESOURCE")
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
